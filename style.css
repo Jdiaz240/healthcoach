@@ -4,10 +4,6 @@ nav {
     border: 1px solid black;   
 }
 
-/* ul {
-    margin-left: 0;
-} */
-
 li {
     list-style: none;
     display: inline;
@@ -20,4 +16,13 @@ a {
 
 #namePlate {
    margin-left: 9%;
+}
+
+img {
+    width: 80%;
+}
+
+#content {
+    margin-top: 10%;
+    border: 1px solid black;
 }
