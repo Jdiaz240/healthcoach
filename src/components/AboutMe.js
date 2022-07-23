@@ -1,13 +1,23 @@
-import React from 'react'
+import Profile from '../assets/images/profile.jpg'
+import Button from 'react-bootstrap/Button'
 
 export default function AboutMe() {
     return (
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi officiis quam optio laboriosam
-                voluptatem architecto nobis voluptates odio commodi? Maiores amet itaque adipisci quaerat error
-                quam
-                explicabo cumque? Molestias, atque.
-            </p>
+        <div className='container' >
+            <section>
+                <p id='aboutMe'>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi officiis quam optio laboriosam
+                    voluptatem architecto nobis voluptates odio commodi? Maiores amet itaque adipisci quaerat error
+                    quam
+                    explicabo cumque? Molestias, atque.<br />
+                    <Button href='https://calendly.com/nelsonluzbel'>My calendly</Button>
+                </p>
+                
+            </section>
+
+            <aside id='profile'>
+                <img src={Profile} alt='profile'></img>
+            </aside>
         </div>
     )
 }

@@ -10,3 +10,38 @@
 .links {
     margin-left: auto;
 }
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    align-items: center; 
+    gap: 10%;
+}
+
+section {
+  margin: 2% 8%;
+  background-color: #94B49F;
+  padding: 2%;
+  box-shadow: 2% 5% 5% black;
+}
+
+#profile {
+    margin: 2% 5%;
+    width: 100%;
+    border: 1px solid green;
+}
+
+img {
+    width: 100%;
+}
+
+#aboutMe {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Footer {
+    background-color: #94B49F;
+}

@@ -1,14 +1,13 @@
 import React from 'react'
-import { Navbar, NavLink } from 'react-bootstrap'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
 export default function Footer() {
   return (
     <div>
-      <Navbar>
-            
+      <Navbar className='Footer'>
                 <Navbar.Brand>National Suicide Prevention hotline: 800-273-8255</Navbar.Brand>
-                <NavLink>Mental health Help</NavLink>
-            
+                <Nav.Link>Mental health Help</Nav.Link> 
         </Navbar>
     </div>
   )
