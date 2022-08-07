@@ -1,5 +1,4 @@
 import Profile from '../assets/images/profile.jpg'
-import Button from 'react-bootstrap/Button'
 
 export default function AboutMe() {
     return (
@@ -10,7 +9,7 @@ export default function AboutMe() {
                     voluptatem architecto nobis voluptates odio commodi? Maiores amet itaque adipisci quaerat error
                     quam
                     explicabo cumque? Molestias, atque.<hr />
-                    <Button href='https://calendly.com/nelsonluzbel'>My calendly</Button> 
+                    <button href='https://calendly.com/nelsonluzbel'>My calendly</button> 
                 </p>
                 
             </section>
