@@ -2,16 +2,15 @@ import Profile from '../assets/images/profile.jpg'
 
 export default function AboutMe() {
     return (
-        <div className='container' >
+        <div className='container'>
             <section>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi officiis quam optio laboriosam
-                    voluptatem architecto nobis voluptates odio commodi? Maiores amet itaque adipisci quaerat error
-                    quam
-                    explicabo cumque? Molestias, atque.<hr />
-                    <button href='https://calendly.com/nelsonluzbel'>My calendly</button> 
+                    <h3>Hello! I’m Nelson</h3> <br/>
+
+                    I’m a Health Coach with a focus on helping others overcome Health Anxiety & General Anxiety. I understand the negative impact it can have on your quality of life because I’ve experienced it myself! It’s my absolute passion to see others overcome the obstacles that are holding them back and begin to experience more Joy and Happiness.<hr />
+                     <a href='https://calendly.com/nelsonluzbel'><button>My calendly</button></a>
                 </p>
-                
+
             </section>
 
             <aside id='profile'>

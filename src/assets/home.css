@@ -5,26 +5,43 @@ body {
 /* background color and padding for header bar */
 .header {
     background-color: #94B49F;
-    padding: 2% !important;
+    padding: 2%;
+    font-variant: small-caps;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+#namePlate {
+    width: fit-content;
+    margin: 0%;
 }
 
 /* seperates the links from the name through margin spacing */
-.links {
-    margin-left: 65%;
+#links {
+    margin: 0 0 0 48%;
+    list-style: none;
+    width: 30%;
+}
+
+li {
+    display: inline-block;
+    margin: 0 5%;
+    list-style: none;
 }
 
 /* styles the buttons, handles button spacing */
-button {
-    margin: 0 2% !important;
-    border-radius: 25px !important;
-    padding: 0 4%;
+/*  */
+.navBut {
+    border-style: none;
+    border-radius: 30px;
+    padding: 2% 10%;
     background-color: #135B30;
     color: white;
-
 }
 
-button:hover {
-    background-color: transparent;
+.navBut:hover {
+    box-shadow: 0px 0px 10px white;
 }
 
 /* styles the div containing the main content of the page */
@@ -38,11 +55,13 @@ button:hover {
 
 /* styles the AboutMe section */
 section {
-  margin: 2% 8%;
   background-color: #94B49F;
   padding: 2%;
   box-shadow: 5px 5px 10px black !important;
   text-align: center;
+}
+p {
+    font-family: Helvetica;
 }
 
 /* styles the div containing the profile picture */
