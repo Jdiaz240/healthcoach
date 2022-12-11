@@ -1,12 +1,16 @@
 /* background color and padding for header bar */
-
+body{
+    margin: 0;
+}
 #header {
     border: 1px solid black;
     text-align: center;
     height: 150px;
     padding: 1%;
     background-color: #285430;
+    width: 100%;
 }
+
 .namePlate {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -23,23 +27,24 @@
     display: flex;
     flex-direction: column;
     width: 75%;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* splash */
 #splash {
-    margin: 6% 0;
+    margin: 10% 0;
 }
 #first{
-    margin-left: 10%;
-    font-size: 5rem;
+    margin: 0 0 0 10%;
+    font-size: 4rem;
 }
 #second {
-    margin-left: 38%;
-    font-size: 5rem;
+    margin: 0 0 0 38%;
+    font-size: 4rem;
 }
 #third {
-    margin-left: 55%;
-    font-size: 5rem;
+    margin: 0 0 0 60%;
+    font-size: 4rem;
 }
 
 #aboutMe {
@@ -48,9 +53,11 @@
     color: white;
     text-align: center;
     width: 60%;
+    height: 200px;
     margin: 5% auto;
     padding: 1%;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 
@@ -79,7 +86,9 @@ img {
     color:#135B30;
     border-style: none;
     width: 70px;
+    height: 70px;
     background-color: white;
+    font-size: 3rem;
 }
 
 #socials:hover {
