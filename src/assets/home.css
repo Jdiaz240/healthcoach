@@ -128,7 +128,7 @@ img {
 }
 
 #first {
-    font-size: 4rem;
+    font-size: 2rem;
     margin: auto;
 }
 
@@ -143,10 +143,12 @@ img {
 }
 #aboutMe {
     width: 300px;
+    font-size: 15px;
 }
 
 #meContainer {
     margin: auto;
+    text-align: center;
 }
 
 img {
