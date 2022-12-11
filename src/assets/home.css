@@ -122,6 +122,7 @@ img {
 
 #textContainer {
     margin: auto;
+    width: 100%;
 }
 #splash {
     text-align: center;
@@ -149,11 +150,13 @@ img {
 #meContainer {
     margin: auto;
     text-align: center;
+    width: 100%;
 }
 
 img {
     height: 275px;
     width: 200px;
+    margin: auto;
 }
 
 
