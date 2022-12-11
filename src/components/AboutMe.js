@@ -1,5 +1,3 @@
-import Profile from '../assets/images/profile.jpg'
-
 export default function AboutMe() {
     return (
         
