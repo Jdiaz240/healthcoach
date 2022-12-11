@@ -1,70 +1,81 @@
-/* background color for homepage */
-body {
-    background-color: #F0EBE3 !important;
-}
 /* background color and padding for header bar */
-header {
-    display: inline-flex;
-    align-items: center;
-    background-color: #94B49F;
-    padding: 1% 2%;
-    position: static; 
-    width: 100%;
-    margin: 0;
-    top: 0;
-    left: 0; 
-}
-
-#namePlate {
-    width:fit-content;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-nav {
+#header {
+    border: 1px solid black;
     text-align: center;
-    margin-left: 50%;
-    width: 30%;
+    height: 150px;
+    padding: 1%;
+    background-color: #285430;
 }
-
-/* styles the buttons, handles button spacing */
-.navBut {
-    border-style: none;
-    border-radius: 30px;
-    padding: 1% 2%;
-    background-color: #135B30;
-    color: white;
+.namePlate {
     font-family: 'Ubuntu', sans-serif;
-    margin: 0 2%;
+    text-align: center;
+    color: white;
 }
 
-.navBut:hover {
-    background-color: white;
-    color: #135B30;
-}
-
-/* styles the div containing the main content of the page */
-.container {
+/* Home css */
+#homeContainer {
     display: flex;
     flex-direction: row;
-    margin: 2%;
-    align-items: center; 
-    gap: 10%;
 }
 
-/* styles the AboutMe section */
-section {
-  background-color: #94B49F;
-  padding: 2%;
-  box-shadow: 5px 5px 10px black !important;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+#textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
 }
 
-/* styles the div containing the profile picture */
-#profile {
-    margin: 2% 5%;
-    width: 100%;
-    box-shadow: 5px 5px 10px black;
+/* splash */
+#splash {
+    margin: 6% 0;
+}
+#first{
+    margin-left: 10%;
+    font-size: 5rem;
+}
+#second {
+    margin-left: 38%;
+    font-size: 5rem;
+}
+#third {
+    margin-left: 55%;
+    font-size: 5rem;
+}
+
+#aboutMe {
+    border: 1px solid black;
+    background-color: #285430;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 5% auto;
+}
+
+
+/* image and socials */
+#meContainer {
+    margin-top: 5%;
+    display:flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+    height: 375px;
+    border-radius: 20px;
+}
+
+#socialList {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5% 0;
+    
+}
+#socials {
+    margin: 5% 0;
+    border-radius: 30px;
+    color:#135B30;
+    border-style: none;
+    width: 70px;
 }
 
 #calendly {
@@ -75,20 +86,12 @@ section {
     color: white;
     font-family: 'Ubuntu', sans-serif;
 }
+
 #calendly:hover {
     background-color: white;
     color: #135B30;
 }
 
-/* styles the profile picture inside the div */
-img {
-    width: 100%;
-}
 
-/* styles the navbar containing the footer */
-/* .Footer {
-    background-color: #94B49F;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-} */
+
+
