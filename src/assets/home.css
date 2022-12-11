@@ -1,4 +1,5 @@
 /* background color and padding for header bar */
+
 #header {
     border: 1px solid black;
     text-align: center;
@@ -48,6 +49,8 @@
     text-align: center;
     width: 60%;
     margin: 5% auto;
+    padding: 1%;
+    border-radius: 20px;
 }
 
 
@@ -76,6 +79,12 @@ img {
     color:#135B30;
     border-style: none;
     width: 70px;
+    background-color: white;
+}
+
+#socials:hover {
+    background-color: #135B30;
+    color: white;
 }
 
 #calendly {
@@ -92,6 +101,53 @@ img {
     color: #135B30;
 }
 
+@media screen and (max-width: 700px) {
+#header {
+    width: 100%;
+    height: 100px;
+}
 
+#homeContainer {
+    flex-direction: column;
+}
+
+#textContainer {
+    margin: auto;
+}
+#splash {
+    text-align: center;
+}
+
+#first {
+    font-size: 4rem;
+    margin: auto;
+}
+
+#second {
+    font-size: 2rem;
+    margin: auto;
+}
+
+#third {
+    font-size: 2rem;
+    margin: auto;
+}
+#aboutMe {
+    width: 300px;
+}
+
+#meContainer {
+    margin: auto;
+}
+
+img {
+    height: 275px;
+    width: 200px;
+}
+
+
+
+
+}
 
 
