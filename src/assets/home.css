@@ -1,20 +1,27 @@
 /* background color and padding for header bar */
 body{
     margin: 0;
+    background-color: #76BA99;
 }
+
 #header {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     height: 150px;
     padding: 1%;
-    background-color: #285430;
+    background-color: #135B30 ;
     width: 100%;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .namePlate {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: white;
+    margin: 1% 0;
 }
 
 /* Home css */
@@ -26,35 +33,20 @@ body{
 #textContainer {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 65%;
     font-family: 'Ubuntu', sans-serif;
+    color:white;
 }
 
-/* splash */
-#splash {
-    margin: 10% 0;
-}
-#first{
-    margin: 0 0 0 10%;
-    font-size: 4rem;
-}
-#second {
-    margin: 0 0 0 38%;
-    font-size: 4rem;
-}
-#third {
-    margin: 0 0 0 60%;
-    font-size: 4rem;
-}
 
 #aboutMe {
     border: 1px solid black;
-    background-color: #285430;
-    color: white;
+    background-color: white;
+    color: #135B30;
     text-align: center;
     width: 60%;
-    height: 200px;
-    margin: 5% auto;
+    height: 50%;
+    margin: auto;
     padding: 1%;
     border-radius: 20px;
     font-size: 20px;
@@ -72,48 +64,59 @@ img {
     width: 300px;
     height: 375px;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    margin: auto;
 }
 
 #socialList {
     font-size: 3rem;
     text-align: center;
-    margin: 5% 0;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
     
 }
 #socials {
     margin: 5% 0;
     border-radius: 30px;
-    color:#135B30;
+    color: white;
     border-style: none;
     width: 70px;
     height: 70px;
-    background-color: white;
+    background-color: #135B30;
     font-size: 3rem;
 }
 
 #socials:hover {
-    background-color: #135B30;
-    color: white;
+    background-color: white;
+    color: #135B30;
+    cursor: pointer;
+    border: 1px solid #135B30;
 }
 
 #calendly {
     border-style: none;
     border-radius: 30px;
     padding: 1% 3%;
+    font-size: 1rem;
     background-color: #135B30;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    margin: 5% 0;
 }
 
 #calendly:hover {
     background-color: white;
     color: #135B30;
+    border: 1px solid #135B30;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 #header {
     width: 100%;
-    height: 100px;
+    height: 120px;
 }
 
 #homeContainer {
@@ -124,27 +127,11 @@ img {
     margin: auto;
     width: 100%;
 }
-#splash {
-    text-align: center;
-}
 
-#first {
-    font-size: 2rem;
-    margin: auto;
-}
-
-#second {
-    font-size: 2rem;
-    margin: auto;
-}
-
-#third {
-    font-size: 2rem;
-    margin: auto;
-}
 #aboutMe {
     width: 300px;
     font-size: 15px;
+    margin: 5% auto;
 }
 
 #meContainer {
